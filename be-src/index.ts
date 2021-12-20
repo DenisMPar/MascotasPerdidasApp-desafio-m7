@@ -33,6 +33,8 @@ const frontEndPath = path.resolve(__dirname, "../dist");
 
 //check user email
 app.post("/check", async (req, res) => {
+  console.log("checking");
+
   const { email } = req.body;
   if (!email) {
     res.status(400).json({
