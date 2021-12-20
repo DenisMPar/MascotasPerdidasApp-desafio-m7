@@ -1,6 +1,6 @@
 import map from "lodash/map";
 
-const API_BASE_URL = process.env.NODE_ENV;
+const API_BASE_URL = "https://mascotas-perdidas-m7.herokuapp.com";
 
 type Report = {
   petId: number;
