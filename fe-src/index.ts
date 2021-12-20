@@ -1,0 +1,13 @@
+import "./components/pet-card";
+import "./components/nav-bar";
+import "./components/report-card";
+import "./components/map";
+import "./components/menu";
+import "./pages/home/index";
+import "./pages/login";
+import "./pages/pass";
+import "./pages/user-data";
+import "./pages/user-pets";
+import "./pages/report";
+import "./pages/edit";
+import "./router";

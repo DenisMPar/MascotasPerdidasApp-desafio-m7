@@ -1,0 +1,38 @@
+{
+  "name": "cap4",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "sync": "ts-node ./be-src/sync.ts",
+    "dev:api": "nodemon --watch ./be-src/index.ts --exec ts-node ./dev.ts",
+    "dev:fe": "parcel serve ./fe-src/index.html",
+    "build:front": "parcel build ./fe-src/index.html",
+    "build:api": "tsc ./be-src/index.ts",
+    "build": "yarn build:front && yarn build:api",
+    "start": "node ./be-src/index.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "@types/mapbox-gl": "^2.4.2",
+    "@types/node": "^16.11.7",
+    "@vaadin/router": "^1.7.4",
+    "algoliasearch": "^4.11.0",
+    "bulma": "^0.9.3",
+    "cloudinary": "^1.27.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "dropzone": "^6.0.0-beta.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mapbox": "^1.0.0-beta10",
+    "mapbox-gl": "^2.6.1",
+    "nodemon": "^2.0.14",
+    "parcel": "^2.0.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.8.0",
+    "typescript": "^4.4.4",
+    "v2": "^0.0.3"
+  }
+}
