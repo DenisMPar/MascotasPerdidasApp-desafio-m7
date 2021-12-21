@@ -36,6 +36,7 @@ customElements.define(
       //obtengo la url de la imagen
       myDropzone.on("thumbnail", function (file) {
         picture = file;
+        console.log(picture.dataURL);
       });
       //envio todos los datos de la mascota al backend
       form.addEventListener("submit", (e) => {
