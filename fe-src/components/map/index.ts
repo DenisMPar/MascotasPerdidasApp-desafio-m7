@@ -5,8 +5,6 @@ import { state } from "../../state";
 const MAPBOX_TOKEN = process.env.MAPBOX_TOKEN;
 const mapboxClient = new MapboxClient(MAPBOX_TOKEN);
 
-console.log(MAPBOX_TOKEN);
-
 customElements.define(
   "map-el",
   class Map extends HTMLElement {

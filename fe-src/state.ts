@@ -18,7 +18,6 @@ const state = {
     return this.data;
   },
   setState(newState) {
-    console.log("soy el state he cambiado:", newState);
     this.data = newState;
     for (const cb of this.listeners) {
       cb();
