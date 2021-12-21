@@ -5,3 +5,4 @@ dist
 dev.tssendgrid.env
 sendgrid.env
 dev.ts
+be-dist

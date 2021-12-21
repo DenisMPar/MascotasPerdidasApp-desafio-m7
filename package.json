@@ -7,9 +7,9 @@
     "dev:api": "nodemon --watch ./be-src/index.ts --exec ts-node ./dev.ts",
     "dev:fe": "parcel serve ./fe-src/index.html",
     "build:front": "parcel build ./fe-src/index.html",
-    "build:api": "tsc ./be-src/index.ts",
-    "build": "yarn build:front && yarn build:api",
-    "start": "node ./be-src/index.js"
+    "build:api": "tsc",
+    "build": "npm run build:front && yarn build:api",
+    "start": "node ./be-dist/index.js"
   },
   "dependencies": {
     "@sendgrid/mail": "^7.6.0",

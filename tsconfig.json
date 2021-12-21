@@ -8,5 +8,5 @@
 
 
   },
-"includes": ["./be-src/**/*.ts"]
+  "include": ["./be-src/**/*.ts"]
 }
