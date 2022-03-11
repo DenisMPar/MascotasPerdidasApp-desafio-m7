@@ -21,7 +21,12 @@ import {
 
 const app = express();
 const port = process.env.PORT || 3000;
-app.use(cors());
+const allowedHosts = ["http://127.0.0.1:8080"];
+app.use(
+  cors({
+    origin: allowedHosts,
+  })
+);
 app.use(
   express.json({
     limit: "50mb",
