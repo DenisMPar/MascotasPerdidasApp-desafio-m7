@@ -74,7 +74,7 @@ app.post("/auth", async (req, res) => {
 app.post("/auth/token", async (req, res) => {
   const { email, password } = req.body;
   if (!email || !password) {
-    res.status(400).json({
+    return res.status(400).json({
       message: "faltan datos en el body",
     });
   } else {
