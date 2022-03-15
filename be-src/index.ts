@@ -78,14 +78,14 @@ app.post("/auth/token", async (req, res) => {
       message: "faltan datos en el body",
     });
   } else {
-    const user = {};
-    const token = await getToken({ email, password }).catch((err) => {
+    try {
+      const token = await getToken({ email, password });
+      res.json({ token });
+    } catch (error) {
       res.status(400).json({
-        message: err,
+        message: error,
       });
-    });
-
-    res.json({ token });
+    }
   }
 });
 //authorization middleware
