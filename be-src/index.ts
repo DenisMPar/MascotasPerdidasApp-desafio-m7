@@ -80,7 +80,7 @@ app.post("/auth/token", async (req, res) => {
   } else {
     const user = {};
     const token = await getToken({ email, password }).catch((err) => {
-      return res.status(400).json({
+      res.status(400).json({
         message: err,
       });
     });
