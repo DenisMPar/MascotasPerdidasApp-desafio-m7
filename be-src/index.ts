@@ -21,7 +21,7 @@ import {
 
 const app = express();
 const port = process.env.PORT || 3000;
-const allowedHosts = ["http://127.0.0.1:8080"];
+const allowedHosts = ["https://desafio-m8-8e100.web.app"];
 app.use(
   cors({
     origin: allowedHosts,

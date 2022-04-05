@@ -5,7 +5,7 @@ export class Pet extends Model {}
 Pet.init(
   {
     name: DataTypes.STRING,
-    pictureUrl: DataTypes.STRING(1000),
+    pictureUrl: DataTypes.STRING,
     lat: DataTypes.FLOAT,
     lng: DataTypes.FLOAT,
     condition: DataTypes.STRING,

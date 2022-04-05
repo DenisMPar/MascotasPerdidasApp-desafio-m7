@@ -68,6 +68,7 @@ export async function modifyPet(params, petId: number) {
     throw "faltan datos de la mascota ";
   }
   //si recibo el dato newPicture, se modifico la imagen de la mascota por lo tanto debo subirla a cloudinary
+
   if (params.newPicture) {
     const image = await cloudinary.uploader.upload(params.pictureUrl, {
       resource_type: "image",
