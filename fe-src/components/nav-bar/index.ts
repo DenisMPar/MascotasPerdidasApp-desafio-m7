@@ -52,7 +52,7 @@ customElements.define(
       <menu-el class="is-hidden"></menu-el>
       <div class="navbar-brand">
         <a class="navbar-item logo" >
-          <img src=${urlLogo} width="112" height="28">
+          <img src=${urlLogo} width="112" height="28" style="object-fit: contain">
         </a>
     
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
