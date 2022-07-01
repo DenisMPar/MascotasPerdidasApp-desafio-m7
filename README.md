@@ -5,13 +5,6 @@ Webapp donde podrás reportar mascotas perdidas. Se utilizaron patrones MVC y RE
 - Frontend desarrollado con typescript y parcel.
 - Backend desarrollado con Node y Express.
 
-
-# Página de heroku:
-https://mascotas-perdidas-m7.herokuapp.com/
-
-# Documentación de la api en postman:
-https://documenter.getpostman.com/view/17176367/UVRBmRHr#4e50c1fe-e2b1-446a-a5bd-61aa2f425111
-
 # Tecnologías usadas
 
 - Typescript 
@@ -22,3 +15,11 @@ https://documenter.getpostman.com/view/17176367/UVRBmRHr#4e50c1fe-e2b1-446a-a5bd
 - Parcel
 - Postgre 
 - Bulma
+
+# Página de heroku:
+https://mascotas-perdidas-m7.herokuapp.com/
+
+# Documentación de la api en postman:
+https://documenter.getpostman.com/view/17176367/UVRBmRHr#4e50c1fe-e2b1-446a-a5bd-61aa2f425111
+
+
