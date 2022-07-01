@@ -5,6 +5,7 @@ Webapp donde podrás reportar mascotas perdidas. Se utilizaron patrones MVC y RE
 - Frontend desarrollado con typescript y parcel.
 - Backend desarrollado con Node y Express.
 
+
 # Página de heroku:
 https://mascotas-perdidas-m7.herokuapp.com/
 
