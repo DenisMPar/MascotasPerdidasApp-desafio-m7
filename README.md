@@ -17,9 +17,9 @@ Webapp donde podrás reportar mascotas perdidas. Se utilizaron patrones MVC y RE
 - Bulma
 
 # Página de heroku:
-https://mascotas-perdidas-m7.herokuapp.com/
+- https://mascotas-perdidas-m7.herokuapp.com/
 
 # Documentación de la api en postman:
-https://documenter.getpostman.com/view/17176367/UVRBmRHr#4e50c1fe-e2b1-446a-a5bd-61aa2f425111
+- https://documenter.getpostman.com/view/17176367/UVRBmRHr#4e50c1fe-e2b1-446a-a5bd-61aa2f425111
 
 
